@@ -1,5 +1,6 @@
 # Sales-analytics-powerbi-project
-**🔹 1. Project Overview**
+
+## 🔹 1. Project Overview
 Built an end-to-end Sales Analytics Dashboard using Microsoft SQL Server and Microsoft Power BI to analyze revenue trends, customer behavior, and regional performance.
 The project focuses on transforming raw transactional data into meaningful business insights through data modeling, DAX calculations, and interactive visualizations.
 
@@ -61,11 +62,11 @@ FROM Sales.Customer;
 
 **🔹 5. Key KPIs**
 
-1. Total Revenue = Total sales amount
-2. Total Orders = Count of orders
-3. Average Order Value (AOV) = Revenue per order
-4. Revenue per Customer = Revenue per unique customer
-5. Customer Segmentation = Individual vs Business customers
+1. 💰 **Total Revenue** – Total sales amount 
+2. 📦 **Total Orders** – Number of orders  
+3. 📊 **Average Order Value (AOV)** – Revenue per order 
+4. 👤 **Revenue per Customer** – Revenue per unique customer  
+5. 🧩 **Customer Segmentation** – 👤 Individuals vs 🏢 Businesses
 
 **🔹 6. Dashboard Screenshots**
 Visuals: 
@@ -89,22 +90,30 @@ Visuals:
 
 **🔹 7. Business Insights**
 
-Revenue is distributed across a large number of customers, with each contributing a small percentage
-A small group of top customers contributes significantly higher revenue compared to the average
-Business (store) customers contribute a major portion of total revenue
-Seasonal trends observed in monthly sales performance
-Regional variation highlights key high-performing territories
+- Revenue is widely distributed across customers, with each contributing a small share  
+- A small group of top customers contributes disproportionately higher revenue  
+- Business (store) customers contribute the majority of total revenue  
+- Seasonal trends observed in monthly sales performance  
+- Regional analysis highlights high-performing territories 
 
 
-🚀 **Project Outcome****
+## 🚀 Project Outcome
 
 Built a scalable and accurate data model for analytics
 Delivered an interactive dashboard for business decision-making
 Demonstrated strong skills in SQL, Power BI, DAX, and data modeling
 
-
-🎯 **Key Learning****
+## 🎯 Key Learnings
 Importance of correct relationships in Power BI
 Handling NULLs and multiple customer types
 Avoiding double counting in measures
 Writing efficient DAX using CALCULATE and filter context
+
+
+## 🔹 Skills Demonstrated
+
+- SQL (Joins, Aggregations, Window Functions)  
+- Data Modeling (Star Schema, Relationships)  
+- DAX (CALCULATE, FILTER, Context Handling)  
+- Power BI Dashboard Development  
+- Business Analysis & Insight Generation  
