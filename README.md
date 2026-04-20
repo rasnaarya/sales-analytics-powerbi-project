@@ -31,15 +31,17 @@ The project focuses on transforming raw transactional data into meaningful busin
 
 🔸 Top Customers by Revenue(Identifies top revenue-generating customers for targeted business strategies):
 
+```sql
 SELECT TOP 10 
     CustomerID, 
     SUM(TotalDue) AS Revenue
 FROM Sales.SalesOrderHeader
 GROUP BY CustomerID
 ORDER BY Revenue DESC;
-
+```
 🔸 Monthly Sales Trend(Analyzes revenue trends over time to identify seasonality and growth patterns):
 
+```sql
 SELECT 
     YEAR(OrderDate) AS Year,
     MONTH(OrderDate) AS Month,
@@ -47,13 +49,15 @@ SELECT
 FROM Sales.SalesOrderHeader
 GROUP BY YEAR(OrderDate), MONTH(OrderDate)
 ORDER BY Year, Month;
-
+```
 🔸 Customer Segmentation(Segregates customers into individual and business categories for comparative analysis):
 
+```sql
 SELECT 
     COUNT(CASE WHEN PersonID IS NOT NULL THEN 1 END) AS PersonCustomers,
     COUNT(CASE WHEN StoreID IS NOT NULL THEN 1 END) AS StoreCustomers
 FROM Sales.Customer;
+```
 
 **🔹 5. Key KPIs**
 
